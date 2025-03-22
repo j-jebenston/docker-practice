@@ -74,5 +74,5 @@ for i in range(9):
 
 tk.Button(root, text="Check", command=check_solution).grid(row=9, column=3, columnspan=3, pady=10)
 tk.Button(root, text="Reset", command=reset_board).grid(row=9, column=6, columnspan=3, pady=10)
-
+#print
 root.mainloop()
